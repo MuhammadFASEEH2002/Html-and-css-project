@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background-image: url("../images/1.jpg");
+  height: 109vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.navigation-bar {
+  width: 100%;
+  height: 75px;
+  /*  margin: auto;*/
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin: auto;
+font-family: 'Fredoka', sans-serif;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 65px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+.search {
+  width: 300px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch {
+  font-family: 'Bebas Neue', cursive;
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.srch:focus {
+  outline: none;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background: white;
+  color: #ff7200;
+}
+
+.content {
+
+  margin-top: 150px;
+  margin-left: 30px;
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.title {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+.title-span{
+  color: #ff7200;
+  font-weight: bolder;
+}
+.para{
+color: white;
+}
+.btn_1 {
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius:  5px;
+  border-top-left-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.btn_1:focus {
+  outline: none;
+}
+
+.btn_1:hover {
+  background: white;
+  color: #ff7200;
+}
+.login{
+border-radius: 10px;
+background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+/*  position: absolute;*/
+  margin-top: -350px;
+  margin-left: 830px;
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+
+}
+.login_here{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ff7200;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.username{
+  font-family: 'Bebas Neue', cursive;
+  width: 250px;
+  height: 20px;
+  background: transparent;
+  border: 2px solid #ff7200;
+  margin: 13px auto auto auto ;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+.password{
+  font-family: 'Bebas Neue', cursive;
+  width: 250px;
+  height: 20px;
+  background: transparent;
+  border: 2px solid #ff7200;
+  margin: 13px auto auto auto ;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+.btn_2 {
+  width: 200px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Bebas Neue', cursive;
+
+margin-top: 25px;
+margin-left: 45px;
+margin-right: auto;
+margin-bottom: auto;
+letter-spacing: 1px;
+}
+
+.btn_2:focus {
+  outline: none;
+}
+
+.btn_2:hover {
+  background: white;
+  color: #ff7200;
+}
+.headingfour{
+  color: white;
+    font-family: 'Fredoka', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.headingfour_1{
+  color: white;
+    font-family: 'Fredoka', sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+      justify-content: center;
+}
+.headingfour_1 a{
+color: #ff7200;
+letter-spacing: 1px;
+text-decoration: none;
+}
